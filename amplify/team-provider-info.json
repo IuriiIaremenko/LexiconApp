@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-lexiconapp-dev-144319-authRole",
+      "UnauthRoleArn": "arn:aws:iam::097940419644:role/amplify-lexiconapp-dev-144319-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::097940419644:role/amplify-lexiconapp-dev-144319-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-lexiconapp-dev-144319-deployment",
+      "UnauthRoleName": "amplify-lexiconapp-dev-144319-unauthRole",
+      "StackName": "amplify-lexiconapp-dev-144319",
+      "StackId": "arn:aws:cloudformation:us-east-1:097940419644:stack/amplify-lexiconapp-dev-144319/92db6990-622f-11eb-9cef-1277ff2044b7",
+      "AmplifyAppId": "d3m4vz8b6uqa2f"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "applinks": {
+      "details": [
+        {
+          "appIDs": [ "894VU869UU.com.mobilaurus.wingstopongroup2", "894VU869UU.com.wearehathway.wingstop-production", "47UH3S589T.com.wearehathway.wingstop"],
+          "components": [
+            {
+              "/": "/",
+              "comment": "Matches only root URL"
+            },
+            {
+              "/": "/*",
+              "exclude": true,
+              "comment": "Matches any URL inside the root and instructs the system not to open it as a universal link"
+            },
+          ]
+        }
+       ]
+   },
+   "webcredentials": {
+     "apps": [    "894VU869UU.com.mobilaurus.wingstopongroup2",
+                  "894VU869UU.com.wearehathway.wingstop-production",
+                  "47UH3S589T.com.wearehathway.wingstop" ]
+   }
+}

@@ -1,15 +1,31 @@
 {
-    "applinks": {
-        "apps": [],
-        "details": [
-            {
-                "appID": "9JA89QQLNQ.com.apple.wwdc",
-                "paths": [ "/wwdc/news/", "/videos/wwdc/2015/*"]
-            },
-            {
-                "appID": "ABCD1234.com.apple.wwdc",
-                "paths": [ "*" ]
-            }
-        ]
-    }
+   "applinks":{
+      "details":[
+         {
+            "appIDs":[
+               "894VU869UU.com.mobilaurus.wingstopongroup2",
+               "894VU869UU.com.wearehathway.wingstop-production",
+               "47UH3S589T.com.wearehathway.wingstop"
+            ],
+            "components":[
+               {
+                  "#":"no_universal_links",
+                  "exclude":true,
+                  "comment":"Matches any URL whose fragment equals no_universal_links and instructs the system not to open it as a universal link"
+               },
+               {
+                  "/":"/*",
+                  "comment":"Matches any URL"
+               }
+            ]
+         }
+      ]
+   },
+   "webcredentials":{
+      "apps":[
+         "894VU869UU.com.mobilaurus.wingstopongroup2",
+         "894VU869UU.com.wearehathway.wingstop-production",
+         "47UH3S589T.com.wearehathway.wingstop"
+      ]
+   }
 }
